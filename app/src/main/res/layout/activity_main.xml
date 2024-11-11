@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Your favourite Programming language"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkPhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHP"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkCpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPP"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:layout_marginTop="20dp"
+        android:onClick="showSelected"/>
+
+</LinearLayout>
