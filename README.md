@@ -4,9 +4,7 @@ Develop a program to create a option menu using checkboxes and display the toast
 To Develop a program for creating a option menu using checkboxes and display the toast selected checkboxes with Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Min. required Artic Fox)
-
 
 ## ALGORITHM:
 Step 1: Open Android Studio and then click on File -> New -> New project.
@@ -23,7 +21,6 @@ Step 6: Once the Selected check box displayed to the user processed in MainActiv
 
 Step 7: Save and run the application.
 
-
 ## Program:
  ```
 /*
@@ -32,9 +29,7 @@ Developed by: KISHORE M
 RegisterNumber: 212222040079
 */
 ```
-
 ## MainActivity.java:
-
 ```
 package com.example.ex8;
 
@@ -79,9 +74,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-
 ## activity_main.xml:
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -147,7 +140,6 @@ public class MainActivity extends AppCompatActivity {
 ## Output
 
 ![image](https://github.com/user-attachments/assets/2768aac8-b3e2-4e9d-b16d-c74dadbebdd5)
-
 ![image](https://github.com/user-attachments/assets/ad96f5bd-b47a-4285-9539-793d4052a8e9)
 
 ![image](https://github.com/user-attachments/assets/d660b86e-ee12-40bd-a1f6-ca5fa5911d7e)
