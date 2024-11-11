@@ -32,7 +32,6 @@ RegisterNumber: 212222040079
 ## MainActivity.java:
 ```
 package com.example.ex8;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
