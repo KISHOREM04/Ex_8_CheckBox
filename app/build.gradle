@@ -6,7 +6,11 @@ android {
     compileSdk 32
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.ex8"
+=======
+        applicationId "com.example.ex11"
+>>>>>>> e76a4c5 (first commit)
         minSdk 21
         targetSdk 32
         versionCode 1

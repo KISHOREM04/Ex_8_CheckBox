@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ex8</string>
+=======
+    <string name="app_name">ex11</string>
+>>>>>>> e76a4c5 (first commit)
 </resources>

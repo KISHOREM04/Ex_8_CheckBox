@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
 rootProject.name = "ex8"
+=======
+rootProject.name = "ex11"
+>>>>>>> e76a4c5 (first commit)
 include ':app'
